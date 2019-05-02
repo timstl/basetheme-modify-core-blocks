@@ -30,25 +30,25 @@ wp.blocks.registerBlockStyle("core/separator", {
  */
 wp.blocks.registerBlockStyle("core/heading", {
 	name: "h1",
-	label: "H1"
+	label: "H1 style"
 });
 wp.blocks.registerBlockStyle("core/heading", {
 	name: "h2",
-	label: "H2"
+	label: "H2 style"
 });
 wp.blocks.registerBlockStyle("core/heading", {
 	name: "h3",
-	label: "H3"
+	label: "H3 style"
 });
 wp.blocks.registerBlockStyle("core/heading", {
 	name: "h4",
-	label: "H4"
+	label: "H4 style"
 });
 wp.blocks.registerBlockStyle("core/heading", {
 	name: "h5",
-	label: "H5"
+	label: "H5 style"
 });
 wp.blocks.registerBlockStyle("core/heading", {
 	name: "h6",
-	label: "H6"
+	label: "H6 style"
 });
