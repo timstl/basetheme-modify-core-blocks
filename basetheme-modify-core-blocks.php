@@ -48,14 +48,15 @@ function bt_modify_tiny_mce_style_formats( $settings ) {
 
 	foreach ( array( 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' ) as $heading ) {
 		$style_formats[] = array(
-			'title'   => strtoupper( $heading ) . ' style',
-			'classes' => 'is-style-' . $heading,
-			'inline'  => 'span',
+			'title'    => strtoupper( $heading ) . ' style',
+			'classes'  => 'is-style-' . $heading,
+			'selector' => 'p,h1,h2,h3,h4,h5,h6',
+			'inline'   => false,
 		);
 	}
 
-	bt_log( $style_formats );
 	$settings['style_formats'] = json_encode( $style_formats );
 
 	return $settings;
 }
+
