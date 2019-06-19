@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name:     Modify Core Blocks
+ * Plugin Name:     Basetheme - Modify Core Blocks
  * Plugin URI:      https://github.com/timstl/basetheme-modify-core-blocks
  * Description:     Modify core blocks: Remove and add styles, etc.
- * Version:         1.0
+ * Version:         1.0.1
  * Author:          Tim Gieseking, Atomicdust, tgieseking@atomicdust.com
  * Author URI:      http://www.atomicdust.com/
  * License:         GPL-2.0+
@@ -21,6 +21,9 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+/**
+ * Enqueue script.
+ */
 function bt_modify_core_blocks_enqueue() {
 	wp_enqueue_script(
 		'bt-modify-core-blocks',
