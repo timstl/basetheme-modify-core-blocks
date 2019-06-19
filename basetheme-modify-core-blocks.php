@@ -4,8 +4,8 @@
  * Plugin URI:      https://github.com/timstl/basetheme-modify-core-blocks
  * Description:     Modify core blocks: Remove and add styles, etc.
  * Version:         1.0.1
- * Author:          Tim Gieseking, Atomicdust, tgieseking@atomicdust.com
- * Author URI:      http://www.atomicdust.com/
+ * Author:          Tim Gieseking, timstl@gmail.com
+ * Author URI:      http://timgweb.com
  * License:         GPL-2.0+
  * License URI:     http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:     basetheme
