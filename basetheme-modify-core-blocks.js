@@ -16,14 +16,31 @@
 /**
  * Unregister / Register separator styles example.
  */
-/*wp.domReady(function() {
+wp.domReady(function() {
 	wp.blocks.unregisterBlockStyle("core/separator", "dots");
+	wp.blocks.unregisterBlockStyle("core/separator", "wide");
 });
 
 wp.blocks.registerBlockStyle("core/separator", {
-	name: "short-centered",
-	label: "Short Centered"
-});*/
+	name: "transparent",
+	label: "Transparent"
+});
+
+/**
+ * Add containers to group block
+ */
+wp.blocks.registerBlockStyle("core/group", {
+	name: "container",
+	label: "Container"
+});
+wp.blocks.registerBlockStyle("core/group", {
+	name: "container-narrow",
+	label: "Container (Narrow)"
+});
+wp.blocks.registerBlockStyle("core/group", {
+	name: "container-wide",
+	label: "Container (Wide)"
+});
 
 /**
  * Add heading styles.

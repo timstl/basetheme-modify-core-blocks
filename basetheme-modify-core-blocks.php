@@ -3,7 +3,7 @@
  * Plugin Name:     Basetheme - Modify Core Blocks
  * Plugin URI:      https://github.com/timstl/basetheme-modify-core-blocks
  * Description:     Modify core blocks: Remove and add styles, etc.
- * Version:         1.0.1
+ * Version:         1.1
  * Author:          Tim Gieseking, timstl@gmail.com
  * Author URI:      http://timgweb.com
  * License:         GPL-2.0+
